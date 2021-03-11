@@ -1,6 +1,8 @@
 # docker-mp3tag
 MP3Tag v3.05 in docker basen on linuxserver docker-baseimage-guacgui
 
+Right now you have install wine-mono by clicking "install" when logging in the first time,
+need to find a way around that. But the image is working for now
 
 # Docker compose example
 ```yml
@@ -18,7 +20,7 @@ services:
       - GUAC_USER=abc #optional
       - GUAC_PASS=5f4dcc3b5aa765d61d8327deb882cf99
       - UMASK_SET=022 #optional
-      - $CLI_ARGS= #optional
+      #- $CLI_ARGS= #optional
     volumes:
       - /path/to/config:/config
     ports:
