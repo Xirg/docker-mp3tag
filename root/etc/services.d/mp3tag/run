@@ -22,6 +22,6 @@ s6-setuidgid abc
 s6-env DISPLAY=:1 HOME=/config
 
 # Execute mp3tag setup
-ifthenelse { test ! -d "/config/.wine/drive_c/Program\ Files/Mp3tag/" } { wine /tmp/mp3tagsetup.exe /S } { }
+ifthenelse { test ! -d "/config/.wine/drive_c/Program\ Files\ \(x86\)/Mp3tag/" } { wine /tmp/mp3tagsetup.exe /S } { }
 
-wine /config/.wine/drive_c/Program\ Files/Mp3tag/Mp3tag.exe
+wine /config/.wine/drive_c/Program\ Files\ \(x86\)/Mp3tag/Mp3tag.exe
