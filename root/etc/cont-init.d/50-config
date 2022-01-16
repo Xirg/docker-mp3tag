@@ -4,7 +4,7 @@
 #curl -o /tmp/wine-moni.msi -L https://dl.winehq.org/wine/wine-mono/6.0.0/wine-mono-6.0.0-x86.msi
 
 #download installer for mp3tag
-curl -o /tmp/mp3tagsetup.exe -L https://download.mp3tag.de/mp3tagv305setup.exe
+curl -o /tmp/mp3tagsetup.exe -L https://download.mp3tag.de/mp3tagv311setup.exe
 
 # permissions
 chown -R abc:abc \
