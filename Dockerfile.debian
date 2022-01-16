@@ -12,6 +12,7 @@ RUN dpkg --add-architecture i386 && \
     xvfb \
     apt-utils \
     gnupg2 \ 
+    python-xdg \
     software-properties-common \
     dbus \
     && apt-get clean && \
